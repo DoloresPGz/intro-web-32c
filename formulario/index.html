@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencio la hoja de estilos en mi html -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+    <title>Formulario</title>
+</head>
+<body>
+    <header class="encabezado">
+        <!-- Header es el encabezado de mi página web, me sirve para agrupar el menú de navegación
+             el nombre de mi página, y el buscador -->
+        <h1 class="titulo-principal">Mi Sitio Web</h1>
+        <nav class="navegacion-principal">
+            <!-- Nav me ayuda a listar las secciones que están disponibles en mi sitio web, 
+                me ayuda a navegar de manera más sencilla -->
+            <ul class="lista-de-navegacion">
+                <li class="item-de-navegacion"><a class="link-de-navegacion" href="#">Incio</a></li>
+                <li class="item-de-navegacion"><a class="link-de-navegacion" href="#">Acerca de</a></li>
+                <li class="item-de-navegacion"><a class="link-de-navegacion" href="#">Contacto</a></li>
+            </ul>    
+        </nav>
+    </header>
+    <main class="contenido-principal">
+        <!-- Main me ayuda a identificar la información principal de mi página web -->
+        <!-- Nota: Generalmente sólo existe una etiqueta main por página -->
+        <section class="seccion-inicio">
+            <h2 class="titulo-de-seccion">Bienvenido a mi sitio</h2>
+            <p class="texto-de-seccion">Bienvenido a mi primer sitio web donde hago un formulario</p>
+        </section>
+        <section class="seccion-contacto">
+            <h2 class="titulo-de-seccion">Contacto</h2>
+            <form class="formulario-de-contacto">
+                <label class="form-label" for="nombre" >Nombre:</label>
+                <input class="form-input" id="nombre" type="text" placeholder="Nombre" required>
+
+                <label class="form-label" for="email">Correo:</label>
+                <input class="form-input" id="email" type="email" required>
+            
+                <label class="form-label" for="mensaje">Mensaje:</label>
+                <textarea class="form-textarea" id="mensaje" type="email" rows="4
+                " required></textarea>
+
+                <button class="form-boton" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="pie-de-pagina">
+        <!-- Footer me sirve para colocar el autor de la página, términos y condiciones, redes sociales, 
+            contactos, etc -->
+        <p class="texto-de-footer">2023 Creado por Dolores Parra</p> 
+    </footer>
+</body>
+</html>

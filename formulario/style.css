@@ -1,0 +1,33 @@
+body {
+    background-color: #bdb76b07;
+    font-family: 'Abel', sans-serif;
+    /* background-image: url();*/
+}
+
+h1{
+    color: chartreuse!important;
+}
+
+h1 {
+    color: blue;
+}
+
+h1:hover {
+    color: #a52a2a;
+}
+
+h1::first-letter{
+    color: magenta;
+}
+
+.titulo-de-seccion{
+    color: red;
+}
+
+.texto-de-footer{
+    text-decoration: underline;
+}
+
+.link-de-navegacion{
+    text-decoration: none;
+}
